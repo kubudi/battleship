@@ -29,10 +29,46 @@
 }
 
 
-
+/*samples section*/
 .samples {
   display: block;
   border: 2px solid black;
-  width: 420;
-  height: 120;
+  width: 800;
+  height: 130;
+}
+.samples > * {
+  display: inline-block;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+.samples .admiral{
+  width: 126;
+  height: 126;
+}
+.samples .admiral .node{
+  margin: 0px;
+}
+.samples .v3{
+  width: 42;
+  height: 126;
+}
+.samples .v2{
+  width: 84;
+  height: 42;
+}
+.samples .h3{
+  width: 126;
+  height: 42;
+}
+.samples .h2{
+  width: 42;
+  height: 84;
+}
+.samples .boat{
+  width: 84;
+  height: 84;
+}
+.samples .solider{
+  width: 42;
+  height: 42;
 }

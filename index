@@ -14,7 +14,45 @@
       <input type="button" id="clear" value="clear"/>
     </div>
     <div class="samples">
-      <div></div>
+      <div class="admiral">
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="v3">
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="h3">
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="v2">
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="h2">
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="boat">
+        <div class="node"></div>
+        <div class="node"></div>
+        <div class="node"></div>
+      </div>
+      <div class="solider">
+        <div class="node"></div>
+      </div>
+      <div class="solider">
+        <div class="node"></div>
+      </div>
+      <div class="solider">
+        <div class="node"></div>
+      </div>
     </div>
   </body>
 </html>

@@ -1,14 +1,15 @@
 $('document').ready(function(){
-
-  init(40); 
-
+  var $board = $('.board');
+  initBoard(40, $board); 
+  
+  var $samples = $('.samples');
+  //initSamples(40,$samples);
   $('#clear').on('click', function(){
     clear();
   })
 });
   
-var init = function(size){
-  var $board = $('.board');
+var initBoard = function(size, $board){
   for (var i = 0; i < 10; i++) {
     for (var j = 0; j < 10; j++) {
       var $visualNode = $("<div class='node'></div>")
@@ -17,6 +18,16 @@ var init = function(size){
       var node = new Node(i*size,j*size,$visualNode)
       board[i][j] = node;
     };
+  };
+}
+
+var initSamples = function(size, $sample){
+  for (var i = 0; i < 3; i++) {
+      var $visualNode = $("<div class='node'></div>")
+      $visualNode.offset({ top: i*size, left: 0})
+      $sample.append($visualNode);
+      var node = new Node(i*size, 0, $visualNode)
+      node.fill();
   };
 }
 
