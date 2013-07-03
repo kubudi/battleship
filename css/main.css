@@ -1,0 +1,38 @@
+.board{
+  border: 2px solid black;
+  width: 420;
+  height: 420;
+}
+.node{
+  display: inline-block;
+  border: 1px solid black;
+  width: 40;
+  height: 40;
+}
+.fill{
+  background-color: #7A7070
+}
+.empty{
+  background-color: #FFFBFB
+}
+
+
+
+.panel {
+  display: block;
+  width: 420;
+  height: 50;
+}.panel #clear {
+  position: relative;
+  height: 30;
+  top: 10;
+}
+
+
+
+.samples {
+  display: block;
+  border: 2px solid black;
+  width: 420;
+  height: 120;
+}

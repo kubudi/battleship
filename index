@@ -1,0 +1,20 @@
+<html>
+  <head>
+    <title></title>
+    <meta content="Battleship">
+
+    <link rel="stylesheet" href="css/main.css" type="text/css"/>
+    <script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+  </head>
+  <body>
+    <h2>BattleShip</h2>
+    <div class="board"></div>
+    <div class= "panel">
+      <input type="button" id="clear" value="clear"/>
+    </div>
+    <div class="samples">
+      <div></div>
+    </div>
+  </body>
+</html>
